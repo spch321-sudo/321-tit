@@ -1,7 +1,7 @@
 /* 321提多書講義 · Service Worker（離線可用）
    版本字串在每次 make_site.py 重新打包時都會變，
    一變就會清掉舊快取、重新抓一份新的，使用者不必手動清除。 */
-const V = '321-tit-e2c77532fcba';
+const V = '321-tit-e2c77532fcba-1018';
 const SHELL = [
   './', './index.html', './sc.html', './en.html', './manifest.webmanifest', './manifest-en.webmanifest',
   './icon-192.png', './icon-512.png',

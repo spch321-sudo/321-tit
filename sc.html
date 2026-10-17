@@ -788,7 +788,7 @@ function applyLang(){
 function toggleSC(){
   S.set.sc = S.set.sc ? 0 : 1; save();
   // 轉簡是單向的：切回繁體要重讀一次，否則靜態外殼的字回不來
-  if (!S.set.sc) { location.reload(); return; }
+  if (!S.set.sc) { goLang('tc'); return; }
   render();
   try { if (typeof F !== 'undefined' && F) fDraw(); } catch(e){}   // 全螢幕模式也要跟著換
   scApply(); applyLang();

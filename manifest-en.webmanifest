@@ -1,0 +1,39 @@
+{
+  "name": "321 Titus Study Notes",
+  "short_name": "321 Titus",
+  "description": "Titus: verse-by-verse exposition from the Greek, sermon manuscripts, teaching lessons and 321 life application.",
+  "id": "/321-tit/en.html",
+  "start_url": "./en.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B2A5B",
+  "theme_color": "#1F4D3D",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "books",
+    "education",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

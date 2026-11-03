@@ -1,7 +1,7 @@
 /* 321提多書講義 · Service Worker（離線可用）
    版本字串在每次 make_site.py 重新打包時都會變，
    一變就會清掉舊快取、重新抓一份新的，使用者不必手動清除。 */
-const V = '321-tit-e2c77532fcba-1018-gxs1019-meet1020-kv1021-gx1021-gx1021c-vp1023-tri10231548-co1-gp1103-au1103-xz1103-xf1103-xm1103';
+const V = '321-tit-e2c77532fcba-1018-gxs1019-meet1020-kv1021-gx1021-gx1021c-vp1023-tri10231548-co1-gp1103-au1103-xz1103-xf1103-xm1103-vk1103';
 const PFX = '321-tit-';   /* 同一個 github.io 網域共用 Cache Storage：只清自己的前綴 */
 const NC = u => ({ cache: new URL(u).origin === self.location.origin ? 'no-cache' : 'default' });
 const SHELL = [
